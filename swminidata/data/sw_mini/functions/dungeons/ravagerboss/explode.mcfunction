@@ -6,4 +6,4 @@ execute as @s[scores = {atkCooldown = 40}] at @s run playsound minecraft:entity.
 
 execute as @s[scores = {atkCooldown = 30}] at @s run particle explosion_emitter
 execute as @s[scores = {atkCooldown = 30}] at @s run playsound entity.generic.explode master @a ~ ~ ~ 1000 0.7
-execute as @s[scores = {atkCooldown = 30}] at @s run scoreboard players set @a[distance = 7] hp_dmg 5
+execute as @s[scores = {atkCooldown = 30}] at @s run scoreboard players operation @a[distance = ..7] playerCurrentHp -= #1 constants 
