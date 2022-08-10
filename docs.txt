@@ -1,0 +1,16 @@
+documentation for file descriptions
+
+- Functions -
+
+functions
+    dungeons
+        ravagerboss
+            setup.mcf - create and reset ravager boss scoreboards
+            run.mcf - runs ravager code every tick
+            reset.mcf - resets vars
+            explode.mcf - ravager explosion attack
+            custom_attack.mcf - starts attacks
+    load.mcf - run on pack load
+    tick.mcf - run on tick
+loot_tables
+    blocks

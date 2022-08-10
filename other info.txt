@@ -1,0 +1,1 @@
+ ravager summon cmd - /summon ravager ~ ~ ~ {DeathLootTable:"sw_mini:entities/ravagerboss",Health:400f,Tags:["ravager_boss"],CustomName:'{"text":"Ravager King","font":"illageralt"}',Attributes:[{Name:generic.max_health,Base:400},{Name:generic.knockback_resistance,Base:1}]}
