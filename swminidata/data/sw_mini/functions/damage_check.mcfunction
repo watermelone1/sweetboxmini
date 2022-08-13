@@ -1,0 +1,2 @@
+execute as @a unless score @s damageCheck <= @s playerCurrentHp at @s run summon area_effect_cloud ~ ~ ~ {Particle:"crit",ReapplicationDelay:1,Radius:0.1f,RadiusOnUse:0.1f,Duration:10,WaitTime:0,Potion:"minecraft:harming"}
+execute as @a run scoreboard players operation @s damageCheck = @s playerCurrentHp
